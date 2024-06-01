@@ -43,6 +43,11 @@ public class User {
         this.birthdate = birthdate;
         this.email = email;
     }
+
+    public User(Long userId) {
+        this.id = userId;
+    }
+
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
